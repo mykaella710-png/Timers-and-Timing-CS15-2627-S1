@@ -6,7 +6,6 @@ def delay(s,l):
         elapsed = time.time() - s
         if elapsed > l:
             break
-        time.sleep(0.1)
 
 def go_and_stop():
     print ("go")
